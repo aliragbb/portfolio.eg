@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali — AI Image Studio</title>
+  <meta name="description" content="Minimal, high-end AI images for brands, startups, and local businesses. Fast delivery. Clean results." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#top">Ali<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#pricing">Pricing</a>
+        <a class="btn btn-small" href="#contact">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="Open menu" id="menuBtn">Menu</button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+      <a class="btn" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">AI Image Studio</p>
+          <h1>Premium AI visuals for brands that want to look expensive.</h1>
+          <p class="sub">
+            I create clean, high-quality AI images for product campaigns, fashion/editorials,
+            ads, and social content — fast delivery, consistent style, and commercial-ready results.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#contact">Get a quote</a>
+            <a class="btn btn-ghost" href="#work">View work</a>
+          </div>
+
+          <div class="badges">
+            <div class="badge">Fast delivery</div>
+            <div class="badge">Commercial-ready</div>
+            <div class="badge">Minimal + clean</div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <div>
+              <p class="label">Typical turnaround</p>
+              <p class="value">24–72 hours</p>
+            </div>
+            
+          </div>
+          <div class="hero-card-bottom">
+            <p class="label">Best for</p>
+            <p class="value">Brands • Startups • Local businesses</p>
+            <div class="divider"></div>
+            <p class="muted">
+              Want your visuals to feel like a real campaign shoot — without the shoot budget?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p class="muted">A few examples of the style and quality you can expect.</p>
+        </div>
+
+        <div class="filters">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="fashion">Fashion</button>
+          <button class="chip" data-filter="street">Street</button>
+          <button class="chip" data-filter="studio">Studio</button>
+          <button class="chip" data-filter="product">Product</button>
+        </div>
+
+        <div class="grid" id="gallery">
+          <!-- Replace src with your real file names in /assets -->
+          <figure class="card" data-tags="fashion street">
+            <img src="p1.jpg" alt="AI fashion editorial" loading="lazy">
+            <figcaption>
+              <span>Fashion editorial</span>
+              <small>Clean cinematic look</small>
+            </figcaption>
+          </figure>
+
+          <figure class="card" data-tags="street fashion">
+            <img src="p4.jpg" alt="Streetwear campaign" loading="lazy">
+            <figcaption>
+              <span>Streetwear campaign</span>
+              <small>Sun flare / film vibe</small>
+            </figcaption>
+          </figure>
+
+          <figure class="card" data-tags="studio fashion">
+            <img src="p11.jpg" alt="Studio lookbook" loading="lazy">
+            <figcaption>
+              <span>Cinematic scene</span>
+              <small>Sharp + premium</small>
+            </figcaption>
+          </figure>
+
+          <figure class="card" data-tags="sport">
+            <img src="p8.jpg" alt="Sport action" loading="lazy">
+            <figcaption>
+              <span>Action visual</span>
+              <small>High detail</small>
+            </figcaption>
+          </figure>
+
+          <figure class="card" data-tags="street fashion">
+            <img src="p5.jpg" alt="Night street fashion" loading="lazy">
+            <figcaption>
+              <span>Night street</span>
+              <small>Flash + gritty</small>
+            </figcaption>
+          </figure>
+
+          <figure class="card" data-tags="studio product">
+            <img src="p6.jpg" alt="Clean studio portrait" loading="lazy">
+            <figcaption>
+              <span>Clean studio</span>
+              <small>Minimal background</small>
+            </figcaption>
+          </figure>
+
+          
+
+          <figure class="card" data-tags="street fashion">
+            <img src="p3.jpg" alt="Metro cinematic scene" loading="lazy">
+            <figcaption>
+              <span>Underground Moments</span>
+              <small>Moody lighting</small>
+            </figcaption>
+          </figure>
+
+          <figure class="card" data-tags="street fashion">
+            <img src="p9.jpg" alt="Fire cinematic scene" loading="lazy">
+            <figcaption>
+              <span>Concept visual</span>
+              <small>High impact</small>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <h2>Services</h2>
+          <p class="muted">Pick a direction — I’ll handle prompts, style consistency, and final polish.</p>
+        </div>
+
+        <div class="cols">
+          <div class="box">
+            <h3>Brand & product visuals</h3>
+            <p class="muted">Product shots, clean backdrops, campaign frames, premium lighting.</p>
+            <ul>
+              <li>Commercial-ready compositions</li>
+              <li>Consistent brand look</li>
+              <li>Multiple angles/variations</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3>Fashion/editorial</h3>
+            <p class="muted">Streetwear shoots, lookbooks, studio portraits, cinematic concepts.</p>
+            <ul>
+              <li>Editorial styling + mood</li>
+              <li>High-detail output</li>
+              <li>Social + ads formats</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3>Ad creatives</h3>
+            <p class="muted">Scroll-stopping visuals designed for paid ads and conversions.</p>
+            <ul>
+              <li>Multiple concepts per brief</li>
+              <li>Fast iteration</li>
+              <li>Ready for captions/layout</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head">
+          <h2>How it works</h2>
+          <p class="muted">Simple, fast, and structured — so brands don’t waste time.</p>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <span class="step-num">1</span>
+            <div>
+              <h3>Brief</h3>
+              <p class="muted">You send references, style, and what the image needs to sell.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">2</span>
+            <div>
+              <h3>Concepts</h3>
+              <p class="muted">I generate multiple directions and you choose the best one.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">3</span>
+            <div>
+              <h3>Refine</h3>
+              <p class="muted">We polish details: lighting, textures, realism, composition.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">4</span>
+            <div>
+              <h3>Delivery</h3>
+              <p class="muted">Final 4K images delivered in the formats you need.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head">
+          <h2>Pricing</h2>
+          <p class="muted">Keep it simple. You can adjust these numbers anytime.</p>
+        </div>
+
+        <div class="pricing">
+          <div class="price-card">
+            <h3>Starter</h3>
+            <p class="price">E£349</p>
+            <p class="muted">Best for quick social visuals</p>
+            <ul>
+              <li>3 images</li>
+              <li>1 revision round</li>
+              <li>Delivery 24–48h</li>
+            </ul>
+          </div>
+
+          <div class="price-card featured">
+            <div class="tag">Most chosen</div>
+            <h3>Brand Pack</h3>
+            <p class="price">E£1249</p>
+            <p class="muted">Best for brands & small campaigns</p>
+            <ul>
+              <li>10 images</li>
+              <li>2 revision rounds</li>
+              <li>Delivery 48–72h</li>
+            </ul>
+          </div>
+
+          <div class="price-card">
+            <h3>Campaign</h3>
+            <p class="price">E£2000+</p>
+            <p class="muted">Best for launches & ads</p>
+            <ul>
+              <li>20+ images</li>
+              <li>Style consistency</li>
+              <li>Priority delivery</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="fineprint">
+          Pricing depends on complexity (products, realism, locations, consistency). Ask for a custom quote.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div>
+          <h2>Let’s work</h2>
+          <p class="muted">
+            Tell me what you’re selling, the vibe, and where the visuals will be used.
+            I’ll reply with a quote and timeline.
+          </p>
+
+          <div class="contact-links">
+            <a class="btn" href="mailto:alieldienmahmoud9@gmail.com">Email</a>
+            <a class="btn btn-ghost" href="https://www.instagram.com/alimragabb/#" target="_blank" rel="noreferrer">Instagram</a>
+            <a class="btn btn-ghost" href="https://www.tiktok.com/@alieldieen?is_from_webapp=1&sender_device=pc" target="_blank" rel="noreferrer">Tiktok</a>
+            <a class="btn btn-ghost" href="https://wa.me/+20 10 29792773" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+
+          
+        </div>
+
+        <form class="form" onsubmit="return false;">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" />
+          </label>
+          <label>
+            Project / Brand
+            <input type="text" placeholder="Brand name" />
+          </label>
+          <label>
+            Message
+            <textarea rows="5" placeholder="What do you need? Style? Quantity? Deadline?"></textarea>
+          </label>
+          <button class="btn" id="copyBtn" type="button">Copy message template</button>
+          <p class="muted small" id="copyNote"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Ali — AI Image Studio</p>
+        <a class="muted" href="#top">Back to top</a>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <img id="lightboxImg" alt="Expanded portfolio image" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

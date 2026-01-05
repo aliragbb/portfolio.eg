@@ -9,13 +9,7 @@
   --radius: 18px;
 }
 
-*{
- 
-  min-height: 100vh;
-  margin: 0;
-  background: linear-gradient(135deg, #010528 0%, #004B8E 100%);
-
-  box-sizing:border-box}
+*{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
   margin:0;
@@ -331,5 +325,6 @@ input:focus, textarea:focus{border-color: rgba(255,255,255,.26)}
   .grid{grid-template-columns:1fr}
   .card img{height: 240px}
 }
+
 
 
